@@ -11,28 +11,28 @@ function App() {
           placeHolder="First Name"
           lenght="10"
           type=" text"
-          size="medium"
+          size="small"
         />
         <CustomInput
-          labelText="Middle Name (Optional)"
+          labelText="Middle Name (optional)"
           placeHolder="Middle Name"
           lenght="10"
           type=" text"
-          size="medium"
+          size="small"
         />
         <CustomInput
-          labelText="Last Name"
+          labelText="Last Name:"
           placeHolder="Last Name"
           lenght="10"
           type=" text"
-          size="medium"
+          size="small"
         />
         <CustomInput
-          labelText="Email"
+          labelText="Email:"
           placeHolder="yourEmail@gmail.com"
           lenght="10"
           type=" text"
-          size="medium"
+          size="small"
         />
       </div>
     </div>
