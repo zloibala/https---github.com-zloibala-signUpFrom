@@ -1,5 +1,7 @@
 import "./app.Style.css";
+import CustomButton from "./components/customButton/CustomButton";
 import CustomInput from "./components/custon.Input/CustomInput";
+import Input from "./components/Input/Input";
 
 function App() {
   return (
@@ -33,6 +35,14 @@ function App() {
           lenght="10"
           type=" text"
           size="small"
+        />
+        <CustomButton text="Sign Up" />
+        <Input
+          type="number"
+          required
+          maxLength={4}
+          minLength={2}
+          placeholder="Enter Name"
         />
       </div>
     </div>
