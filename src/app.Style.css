@@ -19,11 +19,12 @@ h1 {
 .Sign-Up {
   color: white;
   font-family: Geneva;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
   width: 60%;
   padding: 50px 0;
   margin: 5px auto;
-  background-color: rgb(187, 138, 189);
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
   border-radius: 10px;
 }
